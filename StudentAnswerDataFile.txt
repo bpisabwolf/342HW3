@@ -1,0 +1,18 @@
+Michael's Exam
+
+MCSAQuestion
+Superman
+
+SAQuestion
+1.0
+The correct answer is: sleepy
+sleepy
+
+SAQuestion
+1.0
+Who recently got access to ultra instinct?
+goku
+
+MCSAQuestion
+Tofu
+
