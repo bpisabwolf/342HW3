@@ -1,14 +1,20 @@
-//Name: Michael Elyafi, ACCC: melyafi
 import java.util.*;
 
-public class ScannerFactory{
-  
-  private static Scanner keyboardScanner = null;
-  
-  public static Scanner getKeyboardScanner(){
-    if (keyboardScanner == null){
-      Scanner keyboardScanner = new Scanner(System.in);
-    }
-    return keyboardScanner;
-  }
+public class ScannerFactory
+{
+	private static Scanner scanner = null;
+	
+	public static Scanner getScanner()
+	{
+		if(scanner == null)
+			scanner = new Scanner(System.in);
+		
+		return scanner;
+	}
+	
+	public void finalize()
+	{
+		scanner.close();
+		return;
+	}
 }
